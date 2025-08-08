@@ -1,0 +1,39 @@
+{
+  "name": "backed_in_depth",
+  "version": "1.0.0",
+  "description": "backend project",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon -r dotenv/config --experimental-json-modules src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harbakshsinghbaath/backed_in_depth.git"
+  },
+  "keywords": [
+    "backend"
+  ],
+  "author": "Harbaksh Singh Baath",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/harbakshsinghbaath/backed_in_depth/issues"
+  },
+  "homepage": "https://github.com/harbakshsinghbaath/backed_in_depth#readme",
+  "devDependencies": {
+    "nodemon": "^3.1.10",
+    "prettier": "^3.6.2"
+  },
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "cloudinary": "^2.7.0",
+    "cookie-parser": "^1.4.7",
+    "cors": "^2.8.5",
+    "dotenv": "^17.0.0",
+    "express": "^5.1.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.16.1",
+    "mongoose-aggregate-paginate-v2": "^1.1.4",
+    "multer": "^2.0.1"
+  }
+}
